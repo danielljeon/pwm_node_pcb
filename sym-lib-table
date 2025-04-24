@@ -16,5 +16,5 @@
   (lib (name "ti_buck")(type "KiCad")(uri "${KIPRJMOD}/component_library/ti_buck.kicad_sym")(options "")(descr ""))
   (lib (name "time_of_flight")(type "KiCad")(uri "${KIPRJMOD}/component_library/time_of_flight.kicad_sym")(options "")(descr ""))
   (lib (name "ublox")(type "KiCad")(uri "${KIPRJMOD}/component_library/ublox.kicad_sym")(options "")(descr ""))
-  (lib (name "pwm_node_connector")(type "KiCad")(uri "${KIPRJMOD}/pwm_node_components/pwm_node_connector.kicad_sym")(options "")(descr ""))
+  (lib (name "pwm_connector_3x4_2-54mm_breakout")(type "KiCad")(uri "${KIPRJMOD}/component_local/pwm_connector_3x4_2-54mm_breakout.kicad_sym")(options "")(descr ""))
 )
