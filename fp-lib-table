@@ -16,5 +16,6 @@
   (lib (name "ti_buck")(type "KiCad")(uri "${KIPRJMOD}/component_library/ti_buck.pretty")(options "")(descr ""))
   (lib (name "time_of_flight")(type "KiCad")(uri "${KIPRJMOD}/component_library/time_of_flight.pretty")(options "")(descr ""))
   (lib (name "ublox")(type "KiCad")(uri "${KIPRJMOD}/component_library/ublox.pretty")(options "")(descr ""))
-  (lib (name "pwm_node_connector")(type "KiCad")(uri "${KIPRJMOD}/pwm_node_components/pwm_node_connector.pretty")(options "")(descr ""))
+  (lib (name "pwm_node_connectors")(type "KiCad")(uri "${KIPRJMOD}/component_local/pwm_node_connectors.pretty")(options "")(descr ""))
+  (lib (name "pwm_node_inductor")(type "KiCad")(uri "${KIPRJMOD}/component_local/pwm_node_inductor.pretty")(options "")(descr ""))
 )
