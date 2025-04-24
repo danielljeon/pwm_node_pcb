@@ -1,7 +1,7 @@
 (footprint "3x4_2-54mm_breakout"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.75 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6c8c3a29-720a-438c-81e8-08927727fdc9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b76e89fd-6237-465e-ab8f-ffa91a6f1819")
 		(effects
 			(font
 				(size 1 1)
@@ -415,7 +402,8 @@
 		(remove_unused_layers no)
 		(uuid "f1803c64-c11d-4549-bb27-4aa77d42d1c3")
 	)
-	(model "${KIPRJMOD}/pwm_node_components/model_3d/PinHeader_1x03_P2.54mm_Vertical.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component_local/model_3d/PinHeader_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz -3.81 2.54 0)
 		)
@@ -426,7 +414,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/pwm_node_components/model_3d/PinHeader_1x03_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/component_local/model_3d/PinHeader_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz -1.27 2.54 0)
 		)
@@ -437,7 +425,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/pwm_node_components/model_3d/PinHeader_1x03_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/component_local/model_3d/PinHeader_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz 1.27 2.54 0)
 		)
@@ -448,7 +436,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/pwm_node_components/model_3d/PinHeader_1x03_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/component_local/model_3d/PinHeader_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz 3.81 2.54 0)
 		)
