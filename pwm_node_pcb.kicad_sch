@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PWM Node")
-		(rev "v0.1.0-alpha")
+		(rev "v0.1.0")
 		(company "Daniel Jeon")
 	)
 	(lib_symbols
@@ -12281,7 +12281,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2200u"
+		(property "Value" "220u"
 			(at 117.348 185.42 0)
 			(effects
 				(font
@@ -13485,7 +13485,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2200u"
+		(property "Value" "220u"
 			(at 104.648 185.42 0)
 			(effects
 				(font
