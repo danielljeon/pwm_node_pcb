@@ -7142,16 +7142,16 @@
 		)
 		(uuid "25fe9e3f-bedc-493a-8fab-f639d97693ff")
 	)
-	(hierarchical_label "USART1_TX"
+	(hierarchical_label "USART1_RX"
 		(shape input)
-		(at 157.48 156.21 180)
+		(at 57.15 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "32c33a5c-a55c-4f71-bd99-fec54565ee1d")
+		(uuid "2ed2165c-7d6c-48c4-8dce-c93d06cc8dc4")
 	)
 	(hierarchical_label "TIM1_CH2"
 		(shape input)
@@ -7219,16 +7219,16 @@
 		)
 		(uuid "46f9a438-0649-43c2-ab9a-0a0c9c8960a6")
 	)
-	(hierarchical_label "USART1_RX"
+	(hierarchical_label "USART1_TX"
 		(shape input)
-		(at 157.48 148.59 180)
+		(at 57.15 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "551d2c01-bdea-41fb-ac52-cb5bbfd27953")
+		(uuid "4b56c2c6-64c2-461c-b9ec-d3e660abd0d7")
 	)
 	(hierarchical_label "PWM1_{5V}"
 		(shape input)
@@ -7351,6 +7351,17 @@
 		)
 		(uuid "9e9acbd5-93fe-4bbb-bff3-fbdb95c12089")
 	)
+	(hierarchical_label "USART1_TX"
+		(shape input)
+		(at 157.48 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b637f655-d973-4ffe-acaa-4ecb53f3b0c7")
+	)
 	(hierarchical_label "CAN1_TX"
 		(shape input)
 		(at 217.17 81.28 180)
@@ -7361,17 +7372,6 @@
 			(justify right)
 		)
 		(uuid "bf3f30fe-e32e-4543-9f00-2c09db3242b0")
-	)
-	(hierarchical_label "USART1_TX"
-		(shape input)
-		(at 57.15 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc21af32-00cb-4a9f-9c6c-a096b6fc7288")
 	)
 	(hierarchical_label "SWDIO"
 		(shape input)
@@ -7417,17 +7417,6 @@
 		)
 		(uuid "e189b94b-2adf-4ebe-84b6-ac1acc82993f")
 	)
-	(hierarchical_label "USART1_RX"
-		(shape input)
-		(at 57.15 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e57e7d18-efc8-47a6-8aac-daa5091c4b20")
-	)
 	(hierarchical_label "CAN1_RX"
 		(shape input)
 		(at 82.55 129.54 0)
@@ -7449,6 +7438,17 @@
 			(justify left)
 		)
 		(uuid "ea52d8ae-0c5e-4992-a5c7-b5042c76de66")
+	)
+	(hierarchical_label "USART1_RX"
+		(shape input)
+		(at 157.48 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f77d0611-9fbb-4b22-8c00-0cd70ddb137d")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10425,7 +10425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UART_TX"
+		(property "Value" "UART_RX"
 			(at 163.83 157.4799 90)
 			(effects
 				(font
@@ -10825,7 +10825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UART_RX"
+		(property "Value" "UART_TX"
 			(at 163.83 149.8599 90)
 			(effects
 				(font

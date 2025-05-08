@@ -53,11 +53,11 @@ Connectors fixed by hardware (PCB traces or the connector itself).
 
 User controllable hardware and/or firmware driven inputs.
 
-| Switch/Jumper | Ref | Description                                   |
-|---------------|:---:|-----------------------------------------------|
-| BOOT0 jumper  | JP2 | Open for run flash memory (pull-down on open) |
-| Test pad 1    | TP1 | 1.5 mm diameter test pad, chosen for UART RX  |
-| Test pad 2    | TP2 | 1.5 mm diameter test pad, chosen for UART TX  |
+| Switch/Jumper | Ref | Description                                          |
+|---------------|:---:|------------------------------------------------------|
+| BOOT0 jumper  | JP2 | Open for run flash memory (pull-down on open)        |
+| Test pad 1    | TP1 | 1.5 mm diameter test pad, chosen for `PB6` (UART TX) |
+| Test pad 2    | TP2 | 1.5 mm diameter test pad, chosen for `PB7` (UART RX) |
 
 ---
 
