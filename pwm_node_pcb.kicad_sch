@@ -5,8 +5,8 @@
 	(uuid "5ad786da-b2c9-4f6e-bded-ab776aba6f67")
 	(paper "A4")
 	(title_block
-		(title "PWM Node")
-		(rev "v0.1.0")
+		(title "PWM Node PCB")
+		(rev "0.1.0")
 		(company "Daniel Jeon")
 	)
 	(lib_symbols
