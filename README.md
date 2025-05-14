@@ -2,9 +2,9 @@
 
 ![kibot](https://github.com/danielljeon/pwm_node_pcb/actions/workflows/kibot.yaml/badge.svg)
 
-PWM controller board designed for CAN-based control.
+PCB for CAN-controlled PWM controller.
 
-- Firmware: [pwm_node](https://github.com/danielljeon/pwm_node).
+- Firmware: [`pwm_node`](https://github.com/danielljeon/pwm_node).
 
 ---
 
